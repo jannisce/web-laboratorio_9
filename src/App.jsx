@@ -1,13 +1,9 @@
+import React from 'react'
 import './App.css'
-import Container from './components/Container/Container'
+import Calculadora from './components/Calculadora/Calculadora'
 
-const App = () => {
-
-  return (
-      <div className="App">
-        <Container />
-      </div>
-  )
+function App() {
+  return <Calculadora />
 }
 
 export default App

@@ -1,15 +1,17 @@
-import './Display.css'
-import { useState } from 'react'
+import React from 'react'
+import styles from './Display.module.css'
+import PropTypes from 'prop-types'
 
-const Display = () => {
-  
-  const [result, setResult] = useState(0)
-
+const Display = ( { value } ) => {
   return (
-      <p className="Display">
-        {result}
-      </p>
+    <div className={`${styles.screen}`}>
+      {value}
+    </div>
   )
+}
+
+Display.propTypes = {
+  value: PropTypes.string.isRequired,
 }
 
 export default Display

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Quantico';
+    src: url('/Quantico-Regular.ttf') format('truetype');
+  }
+  
+  :root {
+    font-family: 'Quantico';
+    font-weight: 400;
+    background-color: #1c1c1c;
+  }
+  
+  body {
+    font-family: 'Quantico';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
